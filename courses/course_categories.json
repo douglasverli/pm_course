@@ -1,0 +1,109 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Business & Management",
+      "code": "BUS",
+      "description": "Comprehensive courses on business fundamentals, management principles, and organizational leadership",
+      "course_count": 12
+    },
+    {
+      "id": 2,
+      "name": "Computer Science & Technology",
+      "code": "CST",
+      "description": "Programming, software development, system design, and emerging technologies",
+      "course_count": 15
+    },
+    {
+      "id": 3,
+      "name": "Data Science & Analytics",
+      "code": "DSA",
+      "description": "Data analysis, machine learning, statistical modeling, and business intelligence",
+      "course_count": 12
+    },
+    {
+      "id": 4,
+      "name": "Engineering",
+      "code": "ENG",
+      "description": "Civil, mechanical, electrical, and software engineering disciplines",
+      "course_count": 13
+    },
+    {
+      "id": 5,
+      "name": "Finance & Accounting",
+      "code": "FIN",
+      "description": "Financial analysis, accounting principles, investment management, and corporate finance",
+      "course_count": 10
+    },
+    {
+      "id": 6,
+      "name": "Marketing & Communications",
+      "code": "MKT",
+      "description": "Digital marketing, branding, communications strategy, and market research",
+      "course_count": 10
+    },
+    {
+      "id": 7,
+      "name": "Psychology & Behavioral Sciences",
+      "code": "PSY",
+      "description": "Human behavior, cognitive psychology, organizational behavior, and emotional intelligence",
+      "course_count": 12
+    },
+    {
+      "id": 8,
+      "name": "Health Sciences",
+      "code": "HLS",
+      "description": "Healthcare management, nutrition, fitness, wellness, and medical sciences",
+      "course_count": 10
+    },
+    {
+      "id": 9,
+      "name": "Environmental Studies",
+      "code": "ENV",
+      "description": "Sustainability, climate change, environmental policy, and green technology",
+      "course_count": 10
+    },
+    {
+      "id": 10,
+      "name": "Entrepreneurship & Innovation",
+      "code": "ENT",
+      "description": "Startup development, innovation management, venture capital, and business creation",
+      "course_count": 6
+    }
+  ],
+  "difficulty_levels": [
+    {
+      "id": 1,
+      "level": "Beginner",
+      "code": "BEG",
+      "prerequisites": "None",
+      "description": "Introduction to course topics with no prior knowledge required"
+    },
+    {
+      "id": 2,
+      "level": "Intermediate",
+      "code": "INT",
+      "prerequisites": "Beginner level courses",
+      "description": "Advanced techniques and applications with foundational knowledge assumed"
+    },
+    {
+      "id": 3,
+      "level": "Advanced",
+      "code": "ADV",
+      "prerequisites": "Intermediate level courses",
+      "description": "Specialized topics, research, and industry best practices"
+    }
+  ],
+  "course_statuses": [
+    "Active",
+    "Planning",
+    "Archived",
+    "Under Review"
+  ],
+  "meeting_types": [
+    "Online Synchronous",
+    "Online Asynchronous",
+    "Hybrid",
+    "Self-Paced"
+  ]
+}
